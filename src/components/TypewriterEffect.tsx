@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const phrases = [
-  { text: "Hello, I am Snéha", pause: 3000 },
-  { text: "I always wanted to be an ice-cream tester as my full-time job", pause: 3000 },
-  { text: "Anyways", pause: 1000 },
-  { text: "I love optimistic science and tech stories", pause: 3000 },
+  { text: "Hello, I am Snéha!", pause: 2000 },
+  { text: "I always wanted to be an ice-cream tester for my full-time job.", pause: 2000 },
+  { text: "Anyways,", pause: 1000 },
+  { text: "I love optimistic science and tech stories.", pause: 3000 },
 ];
 
 const TypewriterEffect = () => {

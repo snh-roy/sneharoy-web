@@ -6,7 +6,7 @@ import { Github, Linkedin } from "lucide-react";
 
 const activities = [
   "building termly-ly with a friend",
-  "a people's startup with a team",
+  "building a people's startup with a team",
   "freelancing for MTA",
 ];
 
