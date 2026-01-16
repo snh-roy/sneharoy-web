@@ -17,7 +17,7 @@ const Composition = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-xl font-typewriter uppercase tracking-wider mb-8 font-bold"
+          className="text-xl font-typewriter uppercase tracking-wider mb-8"
         >
           Blogs
         </motion.h1>
