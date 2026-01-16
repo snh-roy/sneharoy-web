@@ -12,17 +12,17 @@ const articles = [
 const Composition = () => {
   return (
     <Layout>
-      <div className="container mx-auto px-6 py-16 max-w-3xl">
+      <div className="container mx-auto px-6 py-16 max-w-5xl">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-xl font-typewriter uppercase tracking-wider mb-8"
+          className="text-2xl font-typewriter uppercase tracking-wider mb-8"
         >
           Blogs
         </motion.h1>
 
-        <div className="space-y-6">
+        <div className="space-y-6 ml-8 md:ml-16">
           {articles.map((article, index) => (
             <motion.article
               key={article.title}
@@ -33,14 +33,14 @@ const Composition = () => {
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex-1">
-                  <h2 className="font-typewriter text-lg mb-2 group-hover:underline underline-offset-4">
+                  <h2 className="font-typewriter text-xl mb-2 group-hover:underline underline-offset-4">
                     {article.title}
                   </h2>
-                  <p className="font-mono text-sm text-foreground/70 leading-relaxed">
+                  <p className="font-mono text-base text-foreground/70 leading-relaxed">
                     {article.description}
                   </p>
                 </div>
-                <span className="font-mono text-sm text-muted-foreground shrink-0">
+                <span className="font-mono text-base text-muted-foreground shrink-0">
                   {article.date}
                 </span>
               </div>
@@ -52,9 +52,9 @@ const Composition = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-16"
+          className="mt-16 ml-8 md:ml-16"
         >
-          <p className="font-mono text-sm text-muted-foreground italic">
+          <p className="font-mono text-base text-muted-foreground italic">
             More writings coming soon...
           </p>
         </motion.div>
