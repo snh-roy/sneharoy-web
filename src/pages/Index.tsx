@@ -33,14 +33,15 @@ const Index = () => {
 
       {/* Two Column Section */}
       <section className="container mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-between max-w-5xl mx-auto gap-12">
           {/* Left Column - What I'm Doing */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
+            className="md:pl-0"
           >
-            <h2 className="text-xl font-typewriter uppercase tracking-[0.15em] mb-6">
+            <h2 className="text-2xl font-typewriter uppercase tracking-[0.15em] mb-6">
               Right now I am,
             </h2>
             <ul className="space-y-3">
@@ -50,7 +51,7 @@ const Index = () => {
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.4, delay: 0.2 + index * 0.1 }}
-                  className="font-mono text-sm flex items-start gap-2"
+                  className="font-mono text-base flex items-start gap-2"
                 >
                   <span className="mt-1">•</span>
                   <span>{activity}</span>
@@ -64,8 +65,9 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
+            className="md:pr-0"
           >
-            <h2 className="text-xl font-typewriter uppercase tracking-[0.15em] mb-6">
+            <h2 className="text-2xl font-typewriter uppercase tracking-[0.15em] mb-6">
               Links
             </h2>
             <div className="flex gap-6 mb-6">
@@ -103,7 +105,7 @@ const Index = () => {
             </div>
             <a 
               href="mailto:snehabaruch@gmail.com" 
-              className="font-mono text-sm hover:underline underline-offset-4"
+              className="font-mono text-base hover:underline underline-offset-4"
             >
               snehabaruch@gmail.com
             </a>
