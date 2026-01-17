@@ -1,11 +1,13 @@
 import Layout from "@/components/Layout";
 import TypewriterEffect from "@/components/TypewriterEffect";
-import heroBg from "@/assets/me.jpg";
+import heroBg from "@/assets/nycskyline.jpg";
 import { Github, Linkedin } from "lucide-react";
+
 
 const activities = [
   "Freelancing for MTA",
   "Co-founding an EdTech startup",
+  "Learning Rust & NLP",
   "Building Termly part-time",
 ];
 
@@ -63,7 +65,7 @@ const Index = () => {
                 <Linkedin size={36} />
               </a>
               <a 
-                href="https://medium.com/@snehabaruch" 
+                href="https://medium.com/@sneharoy1" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:opacity-70 transition-opacity"

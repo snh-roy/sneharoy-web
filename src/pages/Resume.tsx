@@ -10,14 +10,19 @@ const Resume = () => {
             Education
           </h2>
           <div className="flex items-center gap-8 ml-8 md:ml-16">
-            {/* Logo placeholder */}
-            <div className="w-20 h-20 border border-border flex items-center justify-center shrink-0">
-              <span className="font-mono text-sm text-muted-foreground">Logo</span>
+            {/* Baruch Logo */}
+            <div className="w-64 h-64 flex items-center justify-center shrink-0">
+              <img 
+                src="/baruch-logo2.ico" 
+                alt="Baruch College Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             {/* Text */}
             <div>
               <h3 className="font-typewriter text-2xl font-bold">CUNY, Baruch College</h3>
-              <p className="font-mono text-xl mt-1">BS in Computer Science</p>
+              <p className="font-mono text-xl mt-1 text-gray-800">BS in Computer Science & Minor in Mathematics</p>
+              <p className="font-mono text-xl mt-1 text-gray-800">Expected Graduation: May 2027</p>
             </div>
           </div>
         </section>
@@ -27,17 +32,49 @@ const Resume = () => {
           <h2 className="text-3xl font-typewriter uppercase tracking-wider mb-8">
             Experience
           </h2>
-          <div className="space-y-6 ml-8 md:ml-16">
-            {/* Experience Item */}
+          <div className="space-y-8 ml-8 md:ml-16">
+            {/* MTA Experience */}
             <div className="flex items-center gap-8">
-              {/* Logo placeholder */}
-              <div className="w-20 h-20 border border-border flex items-center justify-center shrink-0">
-                <span className="font-mono text-sm text-muted-foreground">Logo</span>
+              <div className="w-64 h-64 flex items-center justify-center shrink-0">
+                <img 
+                  src="/mta-logo.ico" 
+                  alt="MTA Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
-              {/* Text */}
               <div>
-                <h3 className="font-typewriter text-2xl font-bold">Company Name</h3>
-                <p className="font-mono text-xl mt-1">Role / Title</p>
+                <h3 className="font-typewriter text-2xl font-bold">Metropolitan Transportation Authority</h3>
+                <p className="font-mono text-lg mt-1 text-gray-800">Software Engineer Intern | Jan 2026</p>
+              </div>
+            </div>
+
+            {/* CodePath Experience */}
+            <div className="flex items-center gap-8">
+              <div className="w-64 h-64 flex items-center justify-center shrink-0">
+                <img 
+                  src="/codepath-logo.ico" 
+                  alt="CodePath Logo" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div>
+                <h3 className="font-typewriter text-2xl font-bold">CodePath.Org</h3>
+                <p className="font-mono text-lg mt-1 text-gray-800">Technical Fellow | May 2024 - Present</p>
+              </div>
+            </div>
+
+            {/* Accenture Experience */}
+            <div className="flex items-center gap-8">
+              <div className="w-64 h-64 flex items-center justify-center shrink-0">
+                <img 
+                  src="/accenture-logo.ico" 
+                  alt="Accenture Logo" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div>
+                <h3 className="font-typewriter text-2xl font-bold">Accenture</h3>
+                <p className="font-mono text-lg mt-1 text-gray-800">Software Engineer Intern | September 2025 - November 2025</p>
               </div>
             </div>
           </div>

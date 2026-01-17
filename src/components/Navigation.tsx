@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
   const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   const links = [
     { to: "/", label: "Contemporary" },
@@ -18,6 +19,8 @@ const Navigation = () => {
               key={link.to}
               to={link.to}
               className={`nav-link text-sm uppercase tracking-[0.2em] font-typewriter ${
+                isHomePage ? "text-white" : "text-black"
+              } ${
                 location.pathname === link.to
                   ? "after:w-full"
                   : ""
