@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout = ({ children, backgroundImage }: LayoutProps) => {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: 'hsl(var(--background))' }}>
+    <div className="min-h-screen overflow-x-hidden" style={{ backgroundColor: 'hsl(var(--background))' }}>
       {backgroundImage && (
         <div 
           className="fixed top-0 left-0 w-full h-[60vh] z-0"
@@ -22,7 +22,7 @@ const Layout = ({ children, backgroundImage }: LayoutProps) => {
         </div>
       )}
       <Navigation />
-      <main className="relative z-10 pt-20">
+      <main className="relative z-10 pt-16 sm:pt-20">
         {children}
       </main>
     </div>

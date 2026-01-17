@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        typewriter: ["'Special Elite'", "'American Typewriter'", "'Courier New'", "monospace"],
-        mono: ["'Cutive Mono'", "'Courier New'", "monospace"],
+        typewriter: ["'Jersey 10'", "'Courier New'", "monospace"],
+        mono: ["'Jersey 10'", "'Courier New'", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
