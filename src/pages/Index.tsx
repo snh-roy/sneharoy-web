@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import TypewriterEffect from "@/components/TypewriterEffect";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/me.jpg";
 import { Github, Linkedin } from "lucide-react";
 
 const activities = [
@@ -12,20 +11,9 @@ const activities = [
 
 const Index = () => {
   return (
-    <Layout>
-      {/* Hero Section - 60vh */}
-      <section 
-        className="relative h-[60vh] w-full flex items-center justify-center"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-[hsl(var(--hero-overlay))]" />
-        
-        {/* Typewriter content */}
+    <Layout backgroundImage={heroBg}>
+      {/* Typewriter content */}
+      <section className="relative h-[50vh] w-full flex items-center justify-center">
         <div className="relative z-10 px-6">
           <TypewriterEffect />
         </div>
