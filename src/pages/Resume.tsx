@@ -13,7 +13,7 @@ const Resume = () => {
             {/* Baruch Logo */}
             <div className="w-64 h-64 flex items-center justify-center shrink-0">
               <img 
-                src="/baruch-logo2.ico" 
+                src="./baruch-logo2.ico" 
                 alt="Baruch College Logo" 
                 className="w-full h-full object-contain"
               />
@@ -37,7 +37,7 @@ const Resume = () => {
             <div className="flex items-center gap-8">
               <div className="w-64 h-64 flex items-center justify-center shrink-0">
                 <img 
-                  src="/mta-logo.ico" 
+                  src="./mta-logo.ico" 
                   alt="MTA Logo" 
                   className="w-full h-full object-contain"
                 />
@@ -52,7 +52,7 @@ const Resume = () => {
             <div className="flex items-center gap-8">
               <div className="w-64 h-64 flex items-center justify-center shrink-0">
                 <img 
-                  src="/codepath-logo.ico" 
+                  src="./codepath-logo.ico" 
                   alt="CodePath Logo" 
                   className="w-full h-full object-contain"
                 />
@@ -67,7 +67,7 @@ const Resume = () => {
             <div className="flex items-center gap-8">
               <div className="w-64 h-64 flex items-center justify-center shrink-0">
                 <img 
-                  src="/accenture-logo.ico" 
+                  src="./accenture-logo.ico" 
                   alt="Accenture Logo" 
                   className="w-full h-full object-contain"
                 />

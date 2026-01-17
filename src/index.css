@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Cutive+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Cutive+Mono&display=swap');
 
 /* NYT-inspired Black & White Editorial Design System */
 
