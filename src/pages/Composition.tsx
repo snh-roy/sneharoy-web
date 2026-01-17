@@ -43,11 +43,6 @@ const Composition = () => {
           ))}
         </div>
 
-        <div className="mt-16 ml-8 md:ml-16">
-          <p className="font-mono text-xl text-muted-foreground italic">
-            More writings coming soon...
-          </p>
-        </div>
       </div>
     </Layout>
   );
