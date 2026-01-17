@@ -129,6 +129,22 @@
   .activity-card:hover {
     @apply bg-secondary;
   }
+
+  /* Remove focus outlines and touch highlights on mobile */
+  * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+  
+  /* Remove focus rings but keep accessibility for keyboard users */
+  *:focus {
+    outline: none;
+  }
+  
+  *:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
 }
 
 @layer utilities {
