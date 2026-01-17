@@ -11,16 +11,24 @@ const activities = [
 
 const Index = () => {
   return (
-    <Layout backgroundImage={heroBg}>
-      {/* Typewriter content */}
-      <section className="relative h-[50vh] w-full flex items-center justify-center">
+    <Layout>
+      {/* Hero Section with background - 60vh */}
+      <section 
+        className="relative h-[60vh] w-full flex items-center justify-center"
+        style={{
+          backgroundImage: `url(${heroBg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-10 px-6">
           <TypewriterEffect />
         </div>
       </section>
 
       {/* Two Column Section */}
-      <section className="container mx-auto px-6 py-16">
+      <section className="container mx-auto px-6 py-16 bg-background">
         <div className="flex flex-col md:flex-row justify-between max-w-5xl mx-auto gap-12">
           {/* Left Column - What I'm Doing */}
           <div className="md:pl-0">
