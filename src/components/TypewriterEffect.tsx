@@ -41,7 +41,7 @@ const TypewriterEffect = () => {
           setCurrentPhraseIndex((prev) => (prev + 1) % phrases.length);
         }
       }
-    }, isDeleting ? 50 : 100);
+    }, isDeleting ? 25 : 50);
 
     return () => clearTimeout(timeout);
   }, [displayText, isDeleting, currentPhraseIndex, isPaused]);
