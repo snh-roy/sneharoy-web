@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { HashRouter, Routes, Route } from "react-router-dom"; // Changed to HashRouter
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Resume from "./pages/Resume";
 import Composition from "./pages/Composition";
@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* HashRouter handles the GitHub Pages 404 issue automatically */}
+      {/* REMOVE basename here - HashRouter doesn't need it on GH Pages */}
       <HashRouter>
         <Routes>
           <Route path="/" element={<Index />} />
