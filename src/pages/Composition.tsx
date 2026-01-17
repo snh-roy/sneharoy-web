@@ -4,7 +4,7 @@ const articles = [
   {
     title: "My first Medium: Me in 10 years",
     date: "Jan 2026",
-    description: "When I am 30",
+    description: "When I am 30.",
     url: "https://medium.com/@sneharoy1/my-first-medium-me-in-10-years-918ce7764106",
   },
 ];
