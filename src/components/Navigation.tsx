@@ -6,7 +6,7 @@ const Navigation = () => {
 
   const links = [
     { to: "/", label: "Contemporary" },
-    { to: "/resume", label: "Résumé" },
+    { to: "/resume", label: "Curriculum Vitae" },
     { to: "/composition", label: "Composition" },
   ];
 
