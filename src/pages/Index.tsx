@@ -5,7 +5,6 @@ import { Github, Linkedin } from "lucide-react";
 
 
 const activities = [
-  "Freelancing for MTA",
   "Co-founding an EdTech startup",
   "Learning Rust & NLP",
   "Building Termly part-time",
@@ -15,7 +14,7 @@ const Index = () => {
   return (
     <Layout backgroundImage={heroBg}>
       {/* Typewriter content */}
-      <section className="relative h-[40vh] sm:h-[50vh] w-full flex items-center justify-center">
+      <section className="relative min-h-[80vh] w-full flex items-center justify-center">
         <div className="relative z-20 px-4 sm:px-6">
           <TypewriterEffect />
         </div>
@@ -78,6 +77,26 @@ const Index = () => {
                   fill="currentColor"
                 >
                   <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                </svg>
+              </a>
+              <a 
+                href="https://drive.google.com/drive/folders/18I_5LzALFEjyu4oUrYMf_t9ZlpAI5UtX?usp=sharing"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:opacity-70 transition-opacity"
+                aria-label="Google Drive"
+              >
+                <svg
+                  viewBox="0 0 48 48"
+                  width="36"
+                  height="36"
+                  className="sm:w-10 sm:h-10"
+                  aria-hidden="true"
+                >
+                  <path fill="#6b7280" d="M16.5 6h15l9 15h-15z" />
+                  <path fill="#9ca3af" d="M7.5 21h15l9 15h-15z" />
+                  <path fill="#374151" d="M25.5 21h15l-9 15h-15z" />
+                  <path fill="#ffffff" d="M22.5 21h3l6 10.5h-3z" />
                 </svg>
               </a>
             </div>
