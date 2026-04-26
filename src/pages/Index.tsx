@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import TypewriterEffect from "@/components/TypewriterEffect";
-import heroBg from "@/assets/nycskyline.jpg";
+import heroBg from "@/assets/gods_creation.jpg";
 import { Github, Linkedin } from "lucide-react";
 
 
@@ -14,9 +14,11 @@ const Index = () => {
   return (
     <Layout backgroundImage={heroBg}>
       {/* Typewriter content */}
-      <section className="relative min-h-[80vh] w-full flex items-center justify-center">
-        <div className="relative z-20 px-4 sm:px-6">
-          <TypewriterEffect />
+      <section className="relative min-h-[80vh] w-full flex items-start justify-start">
+        <div className="w-full px-6 sm:px-12 lg:px-20 relative z-20 pt-4 sm:pt-6 lg:pt-8">
+          <div className="max-w-4xl">
+            <TypewriterEffect />
+          </div>
         </div>
       </section>
 

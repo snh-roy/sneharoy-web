@@ -2,10 +2,9 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const phrases = [
-  { text: "Hello, I am Snéha!", pause: 2000 },
-  { text: "I always wanted to be an ice-cream tester for my full-time job.", pause: 2000 },
+  { text: "I always wanted to be an\nice-cream tester as my\nfull-time job.", pause: 2000 },
   { text: "Anyways,", pause: 1000 },
-  { text: "I love optimistic science and tech stories.", pause: 3000 },
+  { text: "I love optimistic science\nand tech stories.", pause: 3000 },
 ];
 
 const TypewriterEffect = () => {
@@ -47,17 +46,17 @@ const TypewriterEffect = () => {
   }, [displayText, isDeleting, currentPhraseIndex, isPaused]);
 
   return (
-    <div className="text-center">
+    <div className="text-left max-w-[280px] sm:max-w-md lg:max-w-lg">
       <AnimatePresence mode="wait">
-        <motion.h1
+        <motion.div
           key={currentPhraseIndex}
           initial={{ opacity: 0.8 }}
           animate={{ opacity: 1 }}
-          className="text-2xl md:text-4xl lg:text-5xl font-typewriter text-primary-foreground tracking-wide"
+          className="text-xl md:text-2xl lg:text-3xl font-typewriter text-primary-foreground/90 tracking-wide min-h-[4em] whitespace-pre-wrap"
         >
           {displayText}
           <span className="typewriter-cursor bg-primary-foreground" />
-        </motion.h1>
+        </motion.div>
       </AnimatePresence>
     </div>
   );
