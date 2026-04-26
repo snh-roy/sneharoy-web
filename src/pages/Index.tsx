@@ -15,7 +15,7 @@ const Index = () => {
     <Layout backgroundImage={heroBg}>
       {/* Typewriter content */}
       <section className="relative min-h-[80vh] w-full flex items-start justify-start">
-        <div className="w-full px-6 sm:px-12 lg:px-20 relative z-20 pt-4 sm:pt-6 lg:pt-8">
+        <div className="w-full px-4 sm:px-12 lg:px-20 relative z-20 pt-28 sm:pt-6 lg:pt-8">
           <div className="max-w-4xl">
             <TypewriterEffect />
           </div>

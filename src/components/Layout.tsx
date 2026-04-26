@@ -10,15 +10,15 @@ const Layout = ({ children, backgroundImage }: LayoutProps) => {
     <div className="min-h-screen overflow-x-hidden" style={{ backgroundColor: 'hsl(var(--background))' }}>
       {backgroundImage && (
         <div
-          className="absolute top-0 left-0 w-full h-[85vh] z-0 bg-black flex flex-col justify-end items-center"
+          className="absolute top-0 left-0 w-full h-screen sm:h-[85vh] z-0 bg-black flex flex-col justify-end items-center"
           style={{
             backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: "contain",
+            backgroundSize: window.innerWidth < 640 ? "cover" : "contain",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
           }}
         >
-          <p className="font-typewriter text-white/60 text-xs sm:text-sm mb-4 tracking-wider">
+          <p className="font-typewriter text-white/60 text-xs sm:text-sm mb-8 sm:mb-4 tracking-wider px-4 text-center">
             Artemis II crew looks back at Earth on their way to the Moon
           </p>
         </div>
