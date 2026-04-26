@@ -27,14 +27,14 @@ const Index = () => {
         <div className="flex flex-col lg:flex-row justify-between max-w-6xl mx-auto gap-8 lg:gap-20">
           {/* Left Column - What I'm Doing */}
           <div className="lg:flex-1">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">
               Right now I am,
             </h2>
             <ul className="space-y-2 sm:space-y-3">
               {activities.map((activity) => (
                 <li
                   key={activity}
-                  className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2"
+                  className="font-mono text-xl sm:text-2xl lg:text-3xl flex items-start gap-2"
                 >
                   <span className="mt-1 shrink-0">•</span>
                   <span className="break-words">{activity}</span>
@@ -45,7 +45,7 @@ const Index = () => {
 
           {/* Right Column - Links */}
           <div className="lg:flex-1 mt-8 lg:mt-0 lg:ml-32 xl:ml-40">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">
               Also see:
             </h2>
             <div className="flex flex-wrap gap-4 sm:gap-6 lg:gap-8 mb-4 sm:mb-6">
@@ -104,7 +104,7 @@ const Index = () => {
             </div>
             <a 
               href="mailto:snehabaruch@gmail.com" 
-              className="font-mono text-lg sm:text-xl lg:text-2xl hover:underline underline-offset-4 break-all"
+              className="font-mono text-xl sm:text-2xl lg:text-3xl hover:underline underline-offset-4 break-all"
             >
               snehabaruch@gmail.com
             </a>
