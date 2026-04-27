@@ -36,7 +36,7 @@ const Navigation = () => {
           <div className="flex items-center pt-1 sm:pt-2 relative z-[70]">
             {/* Mobile Menu Toggle */}
             <button
-              className={`sm:hidden p-2 ${isHomePage || isOpen ? "text-white" : "text-black"}`}
+              className={`lg:hidden p-2 ${isHomePage || isOpen ? "text-white" : "text-black"}`}
               onClick={toggleMenu}
               aria-label="Toggle Menu"
             >
@@ -44,12 +44,12 @@ const Navigation = () => {
             </button>
 
             {/* Desktop Navigation */}
-            <div className="hidden sm:flex items-center gap-4 md:gap-8 lg:gap-16">
+            <div className="hidden lg:flex items-center gap-8 lg:gap-16">
               {links.map((link) => (
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`nav-link text-xs md:text-sm lg:text-base uppercase tracking-[0.1em] md:tracking-[0.2em] font-typewriter ${
+                  className={`nav-link text-sm lg:text-base uppercase tracking-[0.1em] lg:tracking-[0.2em] font-typewriter ${
                     isHomePage ? "text-white" : "text-black"
                   } ${
                     location.pathname === link.to

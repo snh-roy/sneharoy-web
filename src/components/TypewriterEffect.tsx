@@ -106,9 +106,9 @@ const TypewriterEffect = ({ isHomePage = true }: TypewriterEffectProps) => {
   };
 
   return (
-    <div className="text-left flex flex-col gap-0.5 sm:gap-1 md:gap-2 max-w-[calc(100vw-80px)] sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
+    <div className="text-left flex flex-col gap-0.5 sm:gap-1 md:gap-1.5 max-w-[calc(100vw-80px)] sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
       {/* Introduction line */}
-      <h1 className={`font-typewriter text-2xl sm:text-4xl md:text-5xl lg:text-7xl tracking-wide leading-tight ${textColorClass}`}>
+      <h1 className={`font-typewriter text-2xl sm:text-3xl md:text-4xl lg:text-7xl tracking-wide leading-tight ${textColorClass}`}>
         {prefixText}
         {isHomePage && !isPrefixDone && (
           <span className={`typewriter-cursor w-[2px] h-[0.9em] ml-1 sm:ml-2 ${isHomePage ? 'bg-white' : 'bg-black'}`} />
@@ -116,7 +116,7 @@ const TypewriterEffect = ({ isHomePage = true }: TypewriterEffectProps) => {
       </h1>
       
       {isHomePage && (
-        <div className={`font-typewriter text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-wide min-h-[1.5em] whitespace-pre-wrap opacity-80 leading-snug ${textColorClass}`}>
+        <div className={`font-typewriter text-base sm:text-lg md:text-xl lg:text-3xl tracking-wide min-h-[1.5em] whitespace-pre-wrap opacity-80 leading-snug ${textColorClass}`}>
           {isPrefixDone && (
             <>
               {renderText(displayText)}
