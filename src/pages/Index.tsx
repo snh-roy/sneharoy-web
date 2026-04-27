@@ -13,11 +13,11 @@ const activities = [
 const Index = () => {
   return (
     <Layout backgroundImage={heroBg}>
-      {/* Typewriter content */}
-      <section className="relative min-h-[80vh] w-full flex items-start justify-start">
-        <div className="w-full px-4 sm:px-12 lg:px-20 relative z-20 pt-28 sm:pt-6 lg:pt-8">
-          <div className="max-w-4xl">
-            <TypewriterEffect />
+      {/* Spacer to keep the hero section height */}
+      <section className="relative min-h-[80vh] w-full flex items-start justify-start pointer-events-none">
+        <div className="w-full px-4 sm:px-12 lg:px-20 relative z-20 pt-4 sm:pt-8 lg:pt-10">
+          <div className="max-w-4xl h-32 sm:h-48">
+            {/* Empty space where typewriter used to be, now it's in the Nav */}
           </div>
         </div>
       </section>
