@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 const staticPrefix = "Hi, I am Snéha.";
 const phrases = [
-  { text: " I always wanted to be an ice cream\ntester as my full-time job.", pause: 2000, shouldDelete: true },
-  { text: " Anyways,", pause: 1000, shouldDelete: true },
-  { text: " I love optimistic science and tech stories.", pause: 0, shouldDelete: false },
+  { text: "I always wanted to be an ice cream\ntester as my full-time job.", pause: 2000, shouldDelete: true },
+  { text: "Anyways,", pause: 1000, shouldDelete: true },
+  { text: "I love optimistic science and tech stories.", pause: 0, shouldDelete: false },
 ];
 
 interface TypewriterEffectProps {
