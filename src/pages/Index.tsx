@@ -6,8 +6,8 @@ import { Github, Linkedin } from "lucide-react";
 
 const activities = [
   "Co-founding an EdTech startup",
-  "Learning Rust & NLP",
-  "Building Termly part-time",
+  "Building an assembler in Rust",
+  "Building an NLP-powered media bias detection tool",
 ];
 
 const Index = () => {
