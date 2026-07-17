@@ -57,7 +57,16 @@ const Index = () => {
                 <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
                   <span className="mt-[12px] sm:mt-[14px] lg:mt-[15px] shrink-0 w-[3px] h-[3px] rounded-full bg-current opacity-40"></span>
                   <span className="break-words">
-                    Built an assembler (LC3 tool) in Rust for Baruch's Computer Science students.
+                    Built an assembler ({" "}
+                    <a
+                      href="https://github.com/snh-roy/assembler/tree/gui"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold hover:underline"
+                    >
+                      LC3 tool
+                    </a>
+                    ) in Rust for Baruch's Computer Science students.
                   </span>
                 </li>
               </ul>
