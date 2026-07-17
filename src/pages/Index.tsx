@@ -42,7 +42,7 @@ const Index = () => {
                       href="https://hablack.github.io/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-bold hover:underline"
+                      className="font-semibold hover:underline"
                     >
                       Professor Hadley
                     </a>.
