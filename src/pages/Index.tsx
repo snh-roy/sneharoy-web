@@ -4,11 +4,7 @@ import heroBg from "@/assets/gods_creation.jpg";
 import { Github, Linkedin } from "lucide-react";
 
 
-const activities = [
-  "Co-founding an EdTech startup",
-  "Building an assembler in Rust",
-  "Building an NLP-powered media bias detection tool",
-];
+
 
 const Index = () => {
   return (
@@ -24,27 +20,52 @@ const Index = () => {
 
       {/* Two Column Section */}
       <section className="relative z-10 bg-white min-h-[60vh] container mx-auto px-4 sm:px-6 py-12 sm:py-16">
-        <div className="flex flex-col lg:flex-row justify-between max-w-6xl mx-auto gap-8 lg:gap-20">
+        <div className="flex flex-col lg:flex-row justify-start max-w-6xl mx-auto gap-8 lg:gap-16 xl:gap-24">
           {/* Left Column - What I'm Doing */}
-          <div className="lg:flex-1">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">
-              Right now I am,
-            </h2>
-            <ul className="space-y-2 sm:space-y-3">
-              {activities.map((activity) => (
-                <li
-                  key={activity}
-                  className="font-mono text-xl sm:text-2xl lg:text-3xl flex items-start gap-2"
-                >
-                  <span className="mt-1 shrink-0">•</span>
-                  <span className="break-words">{activity}</span>
+          <div className="lg:w-[60%] space-y-8 sm:space-y-12 lg:-ml-16 xl:-ml-24">
+            <div>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6 whitespace-nowrap">Right now I am,</h2>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
+                  <span className="mt-1 shrink-0 text-base sm:text-lg">•</span>
+                  <span className="break-words">
+                    Co-founding a CivicTech platform to empower non-native<br />
+                    English speakers to become American citizens.
+                  </span>
                 </li>
-              ))}
-            </ul>
+                <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
+                  <span className="mt-1 shrink-0 text-base sm:text-lg">•</span>
+                  <span className="break-words">
+                    Researching randomized algorithms for query complexity<br />
+                    under the sage guidance of{" "}
+                    <a
+                      href="https://hablack.github.io/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold hover:underline"
+                    >
+                      Professor Hadley
+                    </a>.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6 whitespace-nowrap">This summer I have,</h2>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
+                  <span className="mt-1 shrink-0 text-base sm:text-lg">•</span>
+                  <span className="break-words">
+                    Built an assembler (LC3 tool) in Rust for Baruch's Computer Science students.
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Right Column - Links */}
-          <div className="lg:flex-1 mt-8 lg:mt-0 lg:ml-32 xl:ml-40">
+          <div className="mt-8 lg:mt-0 lg:pl-4">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">
               Also see:
             </h2>

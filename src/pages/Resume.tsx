@@ -30,7 +30,7 @@ const Resume = () => {
                 BS in Computer Science & Minor in Mathematics
               </p>
               <p className="font-mono text-lg md:text-xl lg:text-2xl mt-1 text-gray-800">
-                Expected Graduation: May 2027
+                Expected Graduation: December 2026 | GPA: 3.5
               </p>
             </div>
           </div>
