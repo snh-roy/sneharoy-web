@@ -57,7 +57,7 @@ const Index = () => {
                 <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
                   <span className="mt-[12px] sm:mt-[14px] lg:mt-[15px] shrink-0 w-[3px] h-[3px] rounded-full bg-current opacity-40"></span>
                   <span className="break-words">
-                    Built an assembler ({" "}
+                    Built an assembler (
                     <a
                       href="https://github.com/snh-roy/assembler/tree/gui"
                       target="_blank"
