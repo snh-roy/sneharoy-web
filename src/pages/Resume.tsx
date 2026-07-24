@@ -11,7 +11,7 @@ const Resume = () => {
           </h2>
           
           {/* Education Item */}
-          <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8 lg:ml-40 xl:ml-48">
+          <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
             {/* Logo */}
             <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
               <img 
@@ -22,7 +22,7 @@ const Resume = () => {
             </div>
             
             {/* Text Content */}
-            <div className="w-full max-w-prose text-center md:text-left lg:ml-24 xl:ml-32">
+            <div className="w-full max-w-prose text-center md:text-left">
               <h3 className="font-typewriter text-xl md:text-2xl lg:text-3xl font-bold">
                 CUNY, Baruch College
               </h3>
@@ -42,7 +42,7 @@ const Resume = () => {
             Experience
           </h2>
           
-          <div className="space-y-8 lg:ml-40 xl:ml-48">
+          <div className="space-y-8">
             {/* MTA Experience */}
             <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
@@ -52,7 +52,7 @@ const Resume = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="w-full max-w-prose text-center md:text-left lg:ml-24 xl:ml-32">
+              <div className="w-full max-w-prose text-center md:text-left">
                 <h3 className="font-typewriter text-xl md:text-2xl lg:text-3xl font-bold">
                   Metropolitan Transportation Authority
                 </h3>
@@ -71,7 +71,7 @@ const Resume = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="w-full max-w-prose text-center md:text-left lg:ml-24 xl:ml-32">
+              <div className="w-full max-w-prose text-center md:text-left">
                 <h3 className="font-typewriter text-xl md:text-2xl lg:text-3xl font-bold">
                   CodePath.Org
                 </h3>
@@ -90,7 +90,7 @@ const Resume = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="w-full max-w-prose text-center md:text-left lg:ml-24 xl:ml-32">
+              <div className="w-full max-w-prose text-center md:text-left">
                 <h3 className="font-typewriter text-xl md:text-2xl lg:text-3xl font-bold">
                   Accenture
                 </h3>

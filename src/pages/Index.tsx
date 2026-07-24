@@ -19,25 +19,23 @@ const Index = () => {
       </section>
 
       {/* Two Column Section */}
-      <section className="relative z-10 bg-white min-h-[60vh] container mx-auto px-4 sm:px-6 py-12 sm:py-16">
-        <div className="flex flex-col lg:flex-row justify-start max-w-6xl mx-auto gap-8 lg:gap-24 xl:gap-36">
+      <section className="relative z-10 bg-white min-h-[60vh] mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        <div className="flex flex-col lg:flex-row justify-start max-w-6xl mx-auto gap-8 lg:gap-12 xl:gap-20">
           {/* Left Column - What I'm Doing */}
-          <div className="lg:w-[60%] space-y-8 sm:space-y-12 lg:-ml-16 xl:-ml-24">
+          <div className="lg:w-[60%] space-y-8 sm:space-y-12">
             <div>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6 whitespace-nowrap">Right now I am,</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">Right now I am,</h2>
               <ul className="space-y-2 sm:space-y-3">
                 <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
                   <span className="mt-[12px] sm:mt-[14px] lg:mt-[15px] shrink-0 w-[3px] h-[3px] rounded-full bg-current opacity-40"></span>
                   <span className="break-words">
-                    Co-founding a CivicTech platform to empower non-native<br />
-                    English speakers to become American citizens.
+                    Co-founding a CivicTech platform to empower non-native English speakers to become American citizens.
                   </span>
                 </li>
                 <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
                   <span className="mt-[12px] sm:mt-[14px] lg:mt-[15px] shrink-0 w-[3px] h-[3px] rounded-full bg-current opacity-40"></span>
                   <span className="break-words">
-                    Researching randomized algorithms for query complexity<br />
-                    under the sage guidance of{" "}
+                    Researching randomized algorithms for query complexity under the sage guidance of{" "}
                     <a
                       href="https://hablack.github.io/"
                       target="_blank"
@@ -52,7 +50,7 @@ const Index = () => {
             </div>
 
             <div>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6 whitespace-nowrap">This summer I have,</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-typewriter uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-4 sm:mb-6">This summer I have,</h2>
               <ul className="space-y-2 sm:space-y-3">
                 <li className="font-mono text-lg sm:text-xl lg:text-2xl flex items-start gap-2">
                   <span className="mt-[12px] sm:mt-[14px] lg:mt-[15px] shrink-0 w-[3px] h-[3px] rounded-full bg-current opacity-40"></span>
