@@ -57,7 +57,7 @@ const Index = () => {
                   <span className="break-words">
                     Built an open-source assembler (
                     <a
-                      href="https://github.com/snh-roy/assembler/tree/gui"
+                      href="https://github.com/DavidPiwow/assembler"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="font-semibold hover:underline"
