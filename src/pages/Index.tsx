@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout";
-import TypewriterEffect from "@/components/TypewriterEffect";
 import heroBg from "@/assets/gods_creation.jpg";
 import { Github, Linkedin } from "lucide-react";
 
@@ -82,6 +81,8 @@ const Index = () => {
                   href="https://github.com/snh-roy" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  title="GitHub"
+                  aria-label="GitHub"
                   className="hover:opacity-70 transition-opacity"
                 >
                   <Github size={24} className="w-6 h-6 sm:w-7 sm:h-7" />
@@ -90,6 +91,8 @@ const Index = () => {
                   href="https://www.linkedin.com/in/sneharoym/" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  title="LinkedIn"
+                  aria-label="LinkedIn"
                   className="hover:opacity-70 transition-opacity"
                 >
                   <Linkedin size={24} className="w-6 h-6 sm:w-7 sm:h-7" />
@@ -98,6 +101,8 @@ const Index = () => {
                   href="https://medium.com/@sneharoy1" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  title="My Blogs"
+                  aria-label="My Blogs"
                   className="hover:opacity-70 transition-opacity"
                 >
                   <svg 
@@ -111,23 +116,23 @@ const Index = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://drive.google.com/drive/folders/18I_5LzALFEjyu4oUrYMf_t9ZlpAI5UtX?usp=sharing"
+                  href="https://drive.google.com/drive/folders/18I_5LzALFEjyu4oUrYMf_t9ZlpAI5UtX"
                   target="_blank" 
                   rel="noopener noreferrer"
+                  title="My Resume"
                   className="hover:opacity-70 transition-opacity"
-                  aria-label="Google Drive"
+                  aria-label="My Resume"
                 >
                   <svg
-                    viewBox="0 0 48 48"
+                    viewBox="0 0 32 32"
                     width="28"
                     height="28"
                     className="w-7 h-7 sm:w-8 sm:h-8"
                     aria-hidden="true"
                   >
-                    <path fill="#6b7280" d="M16.5 6h15l9 15h-15z" />
-                    <path fill="#9ca3af" d="M7.5 21h15l9 15h-15z" />
-                    <path fill="#374151" d="M25.5 21h15l-9 15h-15z" />
-                    <path fill="#ffffff" d="M22.5 21h3l6 10.5h-3z" />
+                    <path d="M6 2.5h14l6 6V29.5H6z" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
+                    <path d="M20 2.5v6h6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
+                    <text x="16" y="21" textAnchor="middle" fill="currentColor" fontFamily="monospace" fontSize="10" fontWeight="bold">Ré</text>
                   </svg>
                 </a>
               </div>

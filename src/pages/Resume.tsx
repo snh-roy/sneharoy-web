@@ -11,7 +11,7 @@ const Resume = () => {
           </h2>
           
           {/* Education Item */}
-          <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
+          <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
             {/* Logo */}
             <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
               <img 
@@ -30,7 +30,7 @@ const Resume = () => {
                 BS in Computer Science & Minor in Mathematics
               </p>
               <p className="font-mono text-lg md:text-xl lg:text-2xl mt-1 text-gray-800">
-                Expected Graduation: December 2026 | GPA: 3.5
+                Expected Graduation: May 2027 | GPA: 3.5
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Resume = () => {
           
           <div className="space-y-8">
             {/* MTA Experience */}
-            <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
+            <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
                 <img 
                   src="./mta-logo.ico" 
@@ -63,7 +63,7 @@ const Resume = () => {
             </div>
 
             {/* CodePath Experience */}
-            <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
+            <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
                 <img 
                   src="./codepath-logo.ico" 
@@ -82,7 +82,7 @@ const Resume = () => {
             </div>
 
             {/* Accenture Experience */}
-            <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
+            <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
                 <img 
                   src="./accenture-logo.ico" 
