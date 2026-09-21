@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
-import heroBg from "@/assets/gods_creation.jpg";
 import { Github, Linkedin } from "lucide-react";
 
+const heroBg = `${import.meta.env.BASE_URL}pic/gods_creation.jpg`;
 
 
 

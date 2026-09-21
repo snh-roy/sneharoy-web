@@ -1,5 +1,7 @@
 import Layout from "@/components/Layout";
 
+const picBase = `${import.meta.env.BASE_URL}pic/`;
+
 const Resume = () => {
   return (
     <Layout>
@@ -15,7 +17,7 @@ const Resume = () => {
             {/* Logo */}
             <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
               <img 
-                src="./icons/baruch-logo2.ico"
+                src={`${picBase}baruch-logo2.ico`}
                 alt="Baruch College Logo" 
                 className="w-full h-full object-contain"
               />
@@ -47,7 +49,7 @@ const Resume = () => {
             <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
                 <img 
-                  src="./icons/mta-logo.ico"
+                  src={`${picBase}mta-logo.ico`}
                   alt="MTA Logo" 
                   className="w-full h-full object-contain"
                 />
@@ -66,7 +68,7 @@ const Resume = () => {
             <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
                 <img 
-                  src="./icons/codepath-logo.ico"
+                  src={`${picBase}codepath-logo.ico`}
                   alt="CodePath Logo" 
                   className="w-full h-full object-contain"
                 />
@@ -85,7 +87,7 @@ const Resume = () => {
             <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-16 lg:gap-32">
               <div className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 flex items-center justify-center shrink-0">
                 <img 
-                  src="./icons/accenture-logo.ico"
+                  src={`${picBase}accenture-logo.ico`}
                   alt="Accenture Logo" 
                   className="w-full h-full object-contain"
                 />
