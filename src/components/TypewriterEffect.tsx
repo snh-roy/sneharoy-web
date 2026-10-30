@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const staticPrefix = "Hi I'm Sneha!";
 const phrases = [
   { text: "Do you wonder...", pause: 2000, shouldDelete: true },
-  { text: "A future where doctors never have to say,\n'I'm sorry. There is nothing else I can do.'", pause: 3000, shouldDelete: true },
+  { text: "A future where doctors never have to say,\n'I'm sorry. There is nothing else I can do?'", pause: 3000, shouldDelete: true },
   { text: "or...", pause: 2000, shouldDelete: true },
   { text: "Do you wish to be alive when we finally find aliens??", pause: 3000, shouldDelete: true },
   { text: "Anyways,", pause: 2000, shouldDelete: true },
